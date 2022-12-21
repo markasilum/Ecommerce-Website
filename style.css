@@ -1,0 +1,954 @@
+.bot{
+    table-layout: fixed;
+}
+.headul {
+    font-size: 22px;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    left: 20px;
+  }
+#logout{
+    font-size: 22px;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    width: 30px;
+    color: green;
+    left: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+  #backul {
+    font-size: 22px;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    left: 20px;
+  }
+
+li{
+    padding: 2px;
+    display: inline;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+#header{
+    position: fixed;
+    border: 1px solid black;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    height: 200px;
+    width: 100%;
+    opacity: 80%;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);   
+}
+
+#middle{
+    position: relative;
+    border: 3px solid black;
+    background-color: white;
+    top: 210px;
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+}
+#middle2{
+    position: relative;
+    border: none;
+    background-color: white;
+    top: 210px;
+    height: 1000px;
+    width: 100%;
+    border-radius: 10px;
+}
+#middle3{
+    position: relative;
+    border: black 2px;
+    
+    left: 32%;
+    top: 10px;
+    height: 1000px;
+    width: 65%;
+    border-radius: 10px;
+}
+#bottom{
+    position: relative;
+    border: 3px solid black;
+    top: 220px;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+#logo{
+    position: fixed;
+    display: inline;
+    left: 30px;
+    top: 60px;
+    height: 100px;
+    width: 150px;
+    
+}
+#cart{
+    position: fixed;
+    display: inline;
+    left: 85vw;
+    top: 60px;
+    height: 120px;
+    width: 120px;
+    
+}
+#cart2{
+    position: fixed;
+    display: inline;
+    left: 85vw;
+    top: 80px;
+    height: 80px;
+    width: 80px;
+    
+}
+#inputs{
+    position: fixed;
+    height: 50px;
+    left: 400px;
+    top: 60px;
+    width: 300px;
+    z-index: 2;
+}
+#inputs2{
+    position: fixed;
+    height: 50px;
+    left: 400px;
+    top: 80px;
+    width: 300px;
+    z-index: 2;
+}
+#labsearch{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 15px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#insearch{
+    position: absolute;
+    font-size: 25px;
+    left: 10px;
+    height: 50px;
+    width: 55vw;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+#logB{
+    position: absolute;
+    font-size: 25px;
+    left: 30px;
+    top: 15px;
+    width: 150px;
+    color: black;
+}
+#logIn{
+    position: absolute;
+    font-size: 25px;
+    top: 100px;
+    left: 30px;
+    height: 40px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#logLab{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 115px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#passIn{
+    position: absolute;
+    font-size: 25px;
+    top: 220px;
+    left: 30px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#passLab{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 235px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#insearch:focus,#insearch:valid{
+    border-color: darkseagreen;
+}
+#insearch:focus~label, #insearch:valid~label{
+    width: 100%;
+    top: -25px;
+    color: gray;
+}
+#logIn:focus,#logIn:valid{
+    border-color: darkseagreen;
+}
+#logIn:focus~label, #logIn:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 65px;
+    color: green;
+}
+#passIn:focus,#passIn:valid{
+    border-color: darkseagreen;
+}
+#passIn:focus~label, #passIn:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 190px;
+    color: green;
+}
+
+#login{
+    position: relative;
+    border: 2px solid black;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    left: 65%;
+    top: 0px;
+    height: 800px;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+
+#signin:hover{
+    
+    background-color: lightgreen;
+}
+#signin{
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    left: 35px;
+    top: 550px;
+    width: 440px;
+    height: 70px;
+    color: black;
+}
+
+#signin2{
+    border: none;
+}
+
+#signup{
+    position: absolute;
+    font-size: 20px;
+    left: 35px;
+    top: 500px;
+    color: black;
+}
+/* #signup:hover{
+    
+    background-color: lightgreen;
+} */
+
+#emailin{
+    position: absolute;
+    font-size: 25px;
+    top: 220px;
+    left: 30px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#emailLab{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 235px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#passUpin{
+    position: absolute;
+    font-size: 25px;
+    top: 340px;
+    left: 30px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+#enterTextin{
+    position: absolute;
+    font-size: 25px;
+    top: 600px;
+    left: 30px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#passUplab{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 355px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#entertext{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 615px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#enterTextin:focus,#enterTextin:valid{
+    border-color: darkseagreen;
+}
+#enterTextin:focus~label, #enterTextin:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top:560px;
+    color: green;
+}
+#emailin:focus,#emailin:valid{
+    border-color: darkseagreen;
+}
+#emailin:focus~label, #emailin:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 190px;
+    color: green;
+}
+#passUpin:focus,input:valid{
+    border-color: darkseagreen;
+}
+#passUpin:focus~label, input:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 310px;
+    color: green;
+}
+#signin2:hover{
+    
+    background-color: lightgreen;
+}
+#signin2{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    top: 450px;
+    width: 80px;
+    color: black;
+}
+#signup2{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    top: 720px;
+    width: 450px;
+    height: 70px;
+    color: black;
+}
+/* #signup2:hover{
+    
+    background-color: lightgreen;
+} */
+#stockin{
+    position: absolute;
+    border: 2px solid black;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    left: 15px;
+    top: 10px;
+    height: 900px;
+    width: 500px;
+    border-radius: 10px;
+}
+#stockTitle{
+    position: absolute;
+    font-size: 30px;
+    left: 20px;
+    top: 15px;
+    width: 150px;
+    color: black;
+}
+#prodIdin{
+    position: absolute;
+    font-size: 25px;
+    top: 100px;
+    left: 15px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#prodIdlab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 115px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+
+
+#prodIdin:focus~label, #prodIdin:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 65px;
+    color: green;
+}
+
+#prodCatin{
+    position: absolute;
+    font-size: 25px;
+    top: 230px;
+    left: 15px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#prodCatlab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 245px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+
+#prodCatin:focus~label, #prodCatin:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 195px;
+    color: green;
+}
+#prodNamein{
+    position: absolute;
+    font-size: 25px;
+    top: 360px;
+    left: 15px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#prodNamelab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 375px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+
+#prodNamein:focus~label, #prodNamein:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 320px;
+    color: green;
+}
+#prodPricein{
+    position: absolute;
+    font-size: 25px;
+    top: 490px;
+    left: 15px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#prodPricelab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 505px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+
+#prodPricein:focus~label, #prodPricein:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 450px;
+    color: green;
+}
+#prodQuanin{
+    position: absolute;
+    font-size: 25px;
+    top: 620px;
+    left: 15px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+
+#prodQuanlab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 635px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+
+#prodQuanin:focus~label, #prodQuanin:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 585px;
+    color: green;
+}
+input:focus,input:valid{
+    border-color: darkseagreen;
+}
+
+#filein{
+    top: 750px;
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    width: 300px;
+    color: black;
+}
+#filelab{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 720px;
+    width: 150px;
+    color: green;
+    transition: 0.10s;
+}
+
+/* #stckTable{
+    font-size: 25px;
+    position: absolute;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    border:2px solid black;
+    width: 500px;
+    top: 250px;
+    left: 700px;
+    padding: 10px;
+    border: none;
+    border-collapse:collapse ;
+    background-origin: border-box;
+} */
+#stckDataTable{
+    
+    position: absolute;
+    border-collapse: collapse;
+    width: 500px;
+    top: 315px;
+    left: 700px;
+    border: 2;
+    
+    
+    
+}
+#stckRowLab{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+   
+}
+#stckRow{
+    padding: 10px;
+    border: 2px solid blue;
+}
+#stckTr{
+    background-color: white;
+   
+}
+#stckTr:hover{
+    background-color: lightgreen;
+}
+#stockTable{
+    position: absolute;
+    border: 3px solid black;
+    
+    left: 700px;
+    top: 250px;
+    height: 75px;
+    width: 565px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    border-bottom: none;
+}
+#ordBack{
+    position: absolute;
+    background: none;
+    border:2px solid black;
+    height: 58px;
+    width: 995px;
+    top: 251px;
+    left: 83px;
+    padding: 10px;
+    border: 3px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+   
+}
+/* #ordTable{
+    position: absolute;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    padding: 10px;
+    width: 1020px;
+    top: 253px;
+    left: 83px;
+    border: 1px;
+    font-size: 25px;
+    border-collapse: collapse;
+    background-origin: border-box;
+    
+} */
+
+#ordRowLab{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+   
+}
+#ordHead{
+    border-top: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+#cusBack{
+    position: absolute;
+    background: none;
+    border:2px solid black;
+    height: 51px;
+    width: 874px;
+    top: 251px;
+    left: 83px;
+    padding: 10px;
+    border: 3px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+   
+}
+/* #cusTable{
+    position: absolute;
+    background: repeating-linear-gradient(90deg, white 0%, green 100%);
+    padding: 10px;
+    width: 900px;
+    top: 253px;
+    left: 83px;
+    border: 1px;
+    font-size: 25px;
+    border-collapse: collapse;
+    background-origin: border-box;
+    
+} */
+
+#cusRowLab{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+   
+}
+#ordHead{
+    border-top: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+#head{
+    font-size: 30px;
+}#trhead{
+    font-size: 30px;
+    background-color: white;
+}
+#headtable{
+    top: 65px;
+    height: 250px;
+    width: 1200px;
+    left: 25px;
+    position: relative;
+    border-spacing: 20px;
+   
+}
+#home{
+    
+    padding: 30px;
+    border: 5px;
+    font-size: 25px;
+    text-decoration-color: black;
+}
+#home2{
+    padding: 30px;
+   
+   
+    font-size: 15px;
+    text-decoration-color: black;
+    
+}
+#home:hover{
+    
+    padding: 30px;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#home2:hover{
+    padding: 30px;
+    
+    border: 2px solid gray;
+    font-size: 15px;
+}
+#category{
+    
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    top: 25px;
+    width: 150px;
+    color: black;
+}
+#homePic{
+    height: 250px;
+    width: 250px;
+}
+#hColor{
+    color: black;
+    text-decoration: none;
+}
+#bot{
+    position: absolute;
+    font-size: 30px;
+    left: 25px;
+    top: 20px;
+    width: 250px;
+    color: black;
+}
+#botPic{
+    height: auto;
+    width: 100%;
+}
+#botPic2{
+    height: 200px;
+    width: 200px;
+}
+#stockPic{
+    height: 100px;
+    width: 100px;
+}
+
+#bottable{
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    top: 50px;
+    left: 5px;
+    position: relative;
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+#disp{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 25px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 10;
+    border: 5px solid black;
+}
+#loginForm{
+    position: absolute;
+    font-size: 25px;
+    top: 100px;
+    left: 25px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 10;
+    border-bottom: 2px solid darkgreen;
+}
+#phonein{
+    position: absolute;
+    font-size: 25px;
+    top: 100px;
+    left: 30px;
+    height: 50px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    padding: 30;
+    border-bottom: 2px solid darkgreen;
+}
+#phonelab{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 115px;
+    width: 150px;
+    color: gray;
+    transition: 0.10s;
+}
+#phonein:focus,#phonein:valid{
+    border-color: darkseagreen;
+}
+#phonein:focus~label, #phonein:valid~label{
+    font-size: 30px;
+    width: 100%;
+    top: 65px;
+    color: green;
+}
+#specoffer{
+    color: red;
+    display: inline;
+    white-space: nowrap;
+   
+}
+#cat{
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    white-space: nowrap;
+}
+#toolbor{
+    display: inline;
+    width: 450px;
+    height: 100px;
+    background-color: aliceblue;
+}
+#captcha{
+    position: absolute;
+    border: none;
+    
+    left: 100px;
+    top: 420px;
+    height: 100px;
+    width: 450px;
+    border-radius: 10px;
+}
+#reload{
+    border: none;
+    background: none;
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    top: 540px;
+    color: black;
+}
+
+#wrong{
+    top: 660px;
+    position: absolute;
+    color: red;
+    left: 35px;
+}
+    
+#google{
+    position: relative;
+    top: 330px;
+    left: 30px;
+}
+#user{
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    left:92vw;
+    top: 10px;  
+    background-size: 80px 80px;
+    background-image: url(pics/pfp.png); 
+    
+}
+#userpfp{
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    left:92vw;
+    top: 10px;      
+}

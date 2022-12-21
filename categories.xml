@@ -1,0 +1,28 @@
+<home>
+    <component>
+        <image>motherboards.png</image>
+        <name>motherboards</name>
+    </component>
+
+    <component>
+        <image>processors.png</image>
+        <name>processors</name>
+    </component>
+
+    <component>
+        <image>memory.png</image>
+        <name>memory</name>
+    </component>
+
+    <component>
+        <image>monitors.png</image>
+        <name>monitors</name>
+    </component>
+
+    <component>
+        <image>storage.png</image>
+        <name>storage</name>
+    </component>
+
+    
+</home>

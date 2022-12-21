@@ -1,0 +1,36 @@
+<brands>
+    <component>
+        <image>sam.png</image>
+        <name>samsung</name>
+    </component>
+
+    <component>
+        <image>asus.png</image>
+        <name>asus</name>
+    </component>
+
+    <component>
+        <image>gigabyte.png</image>
+        <name>gigabyte</name>
+    </component>
+
+    <component>
+        <image>msi.png</image>
+        <name>msi</name>
+    </component>
+
+    <component>
+        <image>intel.png</image>
+        <name>intel</name>
+    </component>
+
+    <component>
+        <image>amd.png</image>
+        <name>amd</name>
+    </component>
+    <component>
+        <image>aoc.png</image>
+        <name>aoc</name>
+    </component>
+
+</brands>

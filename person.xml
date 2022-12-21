@@ -1,0 +1,20 @@
+<person>
+    <data>
+        <name>juan</name>
+        <city>tokyo</city>
+        <age>20</age>
+        <sex>m</sex>
+    </data>
+    <data>
+        <name>pedro</name>
+        <city>manila</city>
+        <age>22</age>
+        <sex>m</sex>
+    </data>
+    <data>
+        <name>maria</name>
+        <city>bangkok</city>
+        <age>23</age>
+        <sex>f</sex>
+    </data>
+</person>

@@ -1,0 +1,226 @@
+<stock>
+    <products>
+        <pid>1</pid>
+        <pcat>Motherboard</pcat>
+        <image>mobo1.jpeg</image>
+        <name>ASUS PRIME A320M-K AM4</name>
+        <price>2,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>2</pid>
+        <pcat>Motherboard</pcat>
+        <image>mobo2.png</image>
+        <name>ASUS STRIX B550-F</name>
+        <price>11,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>3</pid>
+        <pcat>Motherboard</pcat>
+        <image>mobo3.png</image>
+        <name>MSI A520M PRO-VH AM4</name>
+        <price>3,850.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>4</pid>
+        <pcat>Motherboard</pcat>
+        <image>mobo4.png</image>
+        <name>GIGABYTE B550M AORUS PRO</name>
+        <price>9,650.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>5</pid>
+        <pcat>Motherboard</pcat>
+        <image>mobo5.png</image>
+        <name>GIGABYTE A520M DS3H AC AM4</name>
+        <price>5,195.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+
+    <products>
+        <pid>6</pid>
+        <pcat>Processors</pcat>
+        <image>ryzen9.jpg</image>
+        <name>AMD RYZEN 9 5950X</name>
+        <price>57,500.00 </price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+
+    <products>
+        <pid>7</pid>
+        <pcat>Processors</pcat>
+        <image>corei9.jpg</image>
+        <name>Intel CORE i9-12900K</name>
+        <price>36,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>8</pid>
+        <pcat>Processors</pcat>
+        <image>ryzen7.jpg</image>
+        <name>AMD RYZEN 7 5800X3D</name>
+        <price>28,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>9</pid>
+        <pcat>Processors</pcat>
+        <image>corei7.jpg</image>
+        <name>Intel CORE i7-12700</name>
+        <price>22,595.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>10</pid>
+        <pcat>Processors</pcat>
+        <image>corei5.jpg</image>
+        <name>Intel CORE i5-10600</name>
+        <price>13,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+
+    <products>
+        <pid>11</pid>
+        <pcat>Memory</pcat>
+        <image>ram1.jpg</image>
+        <name>32GB(2x16GB) CORSAIR VENGEANCE DDR5</name>
+        <price>17,450.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>12</pid>
+        <pcat>Memory</pcat>
+        <image>ram2.jpg</image>
+        <name>16GB(2x8GB) KINGSTON FURY BEAST DDR5</name>
+        <price>7,550.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>13</pid>
+        <pcat>Memory</pcat>
+        <image>ram3.jpg</image>
+        <name>16GB(1x16GB) ADATA SODIMM DDR4</name>
+        <price>4,750.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>14</pid>
+        <pcat>Memory</pcat>
+        <image>ram4.jpg</image>
+        <name>16GB(1x16GB) CRUCIAL DDR4</name>
+        <price>3,295.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>15</pid>
+        <pcat>Memory</pcat>
+        <image>ram5.png</image>
+        <name>16GB(2x8GB) G.SKILL RIPJAWS V DDR4</name>
+        <price>3,550.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    
+
+    <products>
+        <pid>16</pid>
+        <pcat>Storage</pcat>
+        <image>ssd4.png</image>
+        <name>SAMSUNG 980 250GB NVME PCIE 3.0 x4 M.2 SSD</name>
+        <price>2,595.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>17</pid>
+        <pcat>Storage</pcat>
+        <image>ssd1.png</image>
+        <name>ADATA XPG GAMMIX S70 BLADE 2TB PCIE GEN4X4 M.2 SSD - 2TB</name>
+        <price>22,500.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>18</pid>
+        <pcat>Storage</pcat>
+        <image>ssd2.png</image>
+        <name>SAMSUNG 980 1TB NVME PCIE 3.0 x4 M.2 SSD</name>
+        <price>6,250.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>19</pid>
+        <pcat>Storage</pcat>
+        <image>ssd3.png</image>
+        <name>SAMSUNG 980 500GB NVME PCIE 3.0 x4 M.2 SSD</name>
+        <price>3,550.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>20</pid>
+        <pcat>Monitors</pcat>
+        <image>moni1.jpg</image>
+        <name>AOC 24B2XHM 23.8 IPS WLED MONITOR</name>
+        <price>7,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+
+    <products>
+        <pid>21</pid>
+        <pcat>Monitors</pcat>
+        <image>moni2.png</image>
+        <name>AOC 27G2SE 27 165Hz 1MS GAMING MONITOR</name>
+        <price>9,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>22</pid>
+        <pcat>Monitors</pcat>
+        <image>moni3.jpg</image>
+        <name>SAMSUNG 32 M7 4K SMART MONITOR</name>
+        <price>21,995.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    <products>
+        <pid>23</pid>
+        <pcat>Monitors</pcat>
+        <image>moni4.png</image>
+        <name>SAMSUNG 24 IPS MONITOR</name>
+        <price>8,295.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+    
+    <products>
+        <pid>24</pid>
+        <pcat>Monitors</pcat>
+        <image>moni5.jpg</image>
+        <name>AOC G2790VX 27 144HZ 1MS GAMING MONITOR </name>
+        <price>9,795.00</price>
+        <quantity>15</quantity>
+        <date>12/12/22</date>
+    </products>
+
+</stock>

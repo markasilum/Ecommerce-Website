@@ -1,0 +1,15 @@
+<customers>
+    <header>
+        <cid>Customer I.D.</cid>
+        <email>Email Address</email>
+        <contact>Contact Number</contact>
+        <regisdate>Date Registered</regisdate>
+    </header>
+    <customer>
+        <cid>1</cid>
+        <email>user1</email>
+        <contact>12345</contact>
+        <regisdate>10/21/22</regisdate>
+        <password>1111</password>
+    </customer>
+<customer><cid>2</cid><email>aaaaa</email><contact>54321</contact><regisdate>10/25/22</regisdate><password>12345</password></customer><customer><cid>3</cid><email>BBBBB</email><contact>09123</contact><regisdate>10/25/22</regisdate><password>22222</password></customer><customer><cid>4</cid><email>CCCCC</email><contact>09321</contact><regisdate>10/25/22</regisdate><password>12345</password></customer></customers>
